@@ -18,22 +18,22 @@
 			</section>
 
 			<section>
-				<textarea cols="120" rows="5" id="cajaTexto" onkeydown="contarCaracteres()" onkeyup="contarCaracteres()"></textarea>
+				<textarea cols="120" rows="5" id="cajaTexto" onkeypress="contarCaracteres()" ></textarea>
 				De: 
 
-				<input type="text" name="caracteres" value="">
+				<input type="text" name="caracteres" value="" id="autorDeTweet">
 				contador caracteres:
 
 				<span id="contadorfinal"></span>
-				<button type="submit" id="botonEnviar">Enviar tweet!</button>
+				<input type="button" id="botonEnviar" onclick="publicarTweet()" value="Enviar tweet!"/>
 			</section>
 		</section>
 
 
-		<section id="tweetsPublicados">
+		<article id="tweetsPublicados">
 			<h2>Tweets publicados</h2>
 				
-		</section>
+		</article>
 	</article>
 
 
