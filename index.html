@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twitter</title>
+</head>
+<body>
+
+	<!-- article  -->
+	<article onclick="click()"> 
+
+		<section id="contenedorClicks">
+			Contador clicks: <span id="contadorClicksfinal"></span>
+		</section>
+		
+		<section>
+			<section>
+				<h1>Twitter</h1>
+			</section>
+
+			<section>
+				<textarea cols="120" rows="5" id="cajaTexto" onkeydown="contarCaracteres()" onkeyup="contarCaracteres()"></textarea>
+				De: 
+
+				<input type="text" name="caracteres" value="">
+				contador caracteres:
+
+				<span id="contadorfinal"></span>
+				<button type="submit" id="botonEnviar">Enviar tweet!</button>
+			</section>
+		</section>
+
+
+		<section id="tweetsPublicados">
+			<h2>Tweets publicados</h2>
+				
+		</section>
+	</article>
+
+
+
+
+	<script type="text/javascript" src="assets/javascript/main.js"></script>
+</body>
+</html>
