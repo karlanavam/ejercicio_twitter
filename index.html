@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Twitter</title>
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
@@ -15,13 +16,15 @@
 		<section>
 			<section>
 				<h1>Twitter</h1>
+				<img src="assets/imagenes/twitter.gif" width="100px" alt="twitter" align="middle">
 			</section>
 
 			<section>
-				<textarea cols="120" rows="5" id="cajaTexto" onkeypress="contarCaracteres()" ></textarea>
+				<textarea cols="120" rows="5" id="cajaTexto" placeholder="Escribe tu tweet! :)" onkeypress="contarCaracteres()" wrap="off"></textarea>
+				<br>
 				De: 
 
-				<input type="text" name="caracteres" value="" id="autorDeTweet">
+				<input type="text" name="caracteres" value="" id="autorDeTweet" placeholder="Nombre:">
 				contador caracteres:
 
 				<span id="contadorfinal"></span>
