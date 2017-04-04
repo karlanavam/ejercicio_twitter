@@ -7,12 +7,12 @@
 <body>
 
 	<!-- article  -->
-	<article onclick="click()"> 
+	<article onclick="click()">
 
 		<section id="contenedorClicks">
 			Contador clicks: <span id="contadorClicksfinal"></span>
 		</section>
-		
+
 		<section>
 			<section>
 				<h1>Twitter</h1>
@@ -22,20 +22,22 @@
 			<section>
 				<textarea cols="120" rows="5" id="cajaTexto" placeholder="Escribe tu tweet! :)" onkeypress="contarCaracteres()" wrap="off"></textarea>
 				<br>
-				De: 
+				De:
 
 				<input type="text" name="caracteres" value="" id="autorDeTweet" placeholder="Nombre:">
 				contador caracteres:
 
 				<span id="contadorfinal"></span>
-				<input type="button" id="botonEnviar" onclick="publicarTweet()" value="Enviar tweet!"/>
+				<br>
+				<br>
+				<input type="button" id="botonEnviar" align="center" onclick="publicarTweet()" value="Enviar tweet!"/>
 			</section>
 		</section>
 
 
 		<article id="tweetsPublicados">
 			<h2>Tweets publicados</h2>
-				
+
 		</article>
 	</article>
 

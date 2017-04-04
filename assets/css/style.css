@@ -7,7 +7,14 @@ h1 {
 	color: #5DADE2;
 	font-size: 3em;
 	text-align: center;
-	font-family: Tahoma
+	font-family: Tahoma;
+	-webkit-margin-before: .1em;
+-webkit-margin-after: .2em;
+}
+
+h2{
+	font-size: 14px;
+	color: #85929E;
 }
 
 textarea {
@@ -16,14 +23,35 @@ textarea {
 	border: 1px solid;
 	align: center;
 	overflow: auto;
+	margin: auto;
+  width: 90%;
+  border: 2px solid #CCD1D1;
+  padding: 10px;
+	font-family: Tahoma;
 }
 
 #botonEnviar{
-    border: none;
-    color: white;
-    padding: 10px 26px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+  border: none;
+  color: white;
+  padding: 10px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+	background-color: #CCD1D1;
+	font-family: Tahoma;
+}
+
+section {
+	margin: auto;
+  width: 50%;
+  border: none;
+  padding: 10px;
+	font-family: Tahoma;
+}
+
+article {
+	font-family: Tahoma;
+	align-items: center;
+	align-content: center;
 }
