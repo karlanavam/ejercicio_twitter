@@ -25,12 +25,8 @@ function publicarTweet () {
 	var autor = document.createElement("p");
 	
 	tweets.innerText = cajaDeTexto.value;
-	cajaDeTexto = "";
-
-	
 
 	autor.innerText = autorTweet.value;
-	autorTweet = "";
 
 	contenedorDeTweets.appendChild(tweets);
 	contenedorDeTweets.appendChild(autor);
