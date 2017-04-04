@@ -8,7 +8,7 @@ function contarCaracteres() {
 	document.getElementById("contadorfinal").innerHTML = contador + " de 140";
 
 	if (contador > 140) {
-		alert("No puedes enviar más de 140 caracteres.")
+		alert("No puedes enviar más de 140 caracteres!!")
 	}
 }
 
@@ -20,12 +20,6 @@ function publicarTweet () {
 	var autor = document.createElement("p");
 
 	tweets.innerText = cajaDeTexto.value;
-<<<<<<< HEAD
-=======
-	cajaDeTexto = "";
-
-
->>>>>>> 381baae9a8578350e473121462d230884cf7f850
 
 	autor.innerText = autorTweet.value;
 
